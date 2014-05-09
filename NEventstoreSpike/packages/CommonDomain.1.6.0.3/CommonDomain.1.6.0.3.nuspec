@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>CommonDomain</id>
+    <version>1.6.0.3</version>
+    <title>CommonDomain</title>
+    <authors>Jonathan Oliver,  Jonathan Matheus</authors>
+    <owners>Jonathan Oliver,  Jonathan Matheus</owners>
+    <licenseUrl>https://github.com/joliver/CommonDomain/blob/master/doc/license.txt</licenseUrl>
+    <projectUrl>https://github.com/joliver/CommonDomain</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A domain project for quickly implementing CQRS functionality in domain models.</description>
+    <summary>A domain project for quickly implementing CQRS functionality in domain models.</summary>
+    <tags>events event sourcing cqrs storage persistence database</tags>
+    <dependencies>
+      <dependency id="NEventStore" version="[4.0.0.0, 5.0.0.0)" />
+    </dependencies>
+  </metadata>
+</package>
